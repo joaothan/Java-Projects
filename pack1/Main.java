@@ -11,25 +11,23 @@ import javafx.stage.Stage;
 
 public class Main extends Application {
  
-    // launch the application
+    //Start
     public void start(Stage s)
     {
-        // set title for the stage
+        //Title
         s.setTitle("Pr6");
  
-        // create a textfield
+        //TextField
         TextField b = new TextField("Enter Name");
- 
-        // set preferred column count
         b.setPrefColumnCount(7);
         
-        // create a tile pane
+        //TilePane
         TilePane r = new TilePane();
  
-        // create a label
+        //Label
         Label l = new Label("Your Name");
  
-        // action event
+        //ActionEvent
         EventHandler<ActionEvent> event = new EventHandler<ActionEvent>() {
             public void handle(ActionEvent e)
             {
@@ -37,17 +35,16 @@ public class Main extends Application {
             }
         };
  
-        // when enter is pressed
+        //EnterKeyAction
         b.setOnAction(event);
  
-        // add textfield
+        //Adding TextField
         r.getChildren().add(b);
         r.getChildren().add(l);
  
-        // create a scene
+        //Scene
         Scene sc = new Scene(r, 200, 200);
- 
-        // set the scene
+     
         s.setScene(sc);
  
         s.show();
@@ -55,7 +52,7 @@ public class Main extends Application {
  
     public static void main(String args[])
     {
-        // launch the application
+        //Launch
         launch(args);
     }
 }
