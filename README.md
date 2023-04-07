@@ -1,2 +1,2 @@
 # Java-Projects
-These are Java Projects I have done myself either for fun or for school.
+These are Beginner Java Projects I have done myself while learning the Java language and JavaFx tool while in school.
