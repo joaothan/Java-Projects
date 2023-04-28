@@ -1,2 +1,2 @@
 # Java-Projects
-These are Beginner Java Projects I have done myself while learning the Java language and JavaFx tool while in school.
+These are Java Projects I have done while learning the Java language. They include projects using SQL, JavaFx, and different algorithms 
